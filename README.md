@@ -1,5 +1,5 @@
 # HTML-MDN
-The MDN documentatio divides learning HTML into 3 Modules namely :
+The MDN documentation divides learning HTML into 3 Modules namely :
 
 **1.Introduction to HTML**
 
