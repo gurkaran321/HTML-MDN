@@ -30,6 +30,7 @@ img {
   box-shadow: 1px 0px 2px 1px #fff;
 }
     </style>
+    
 </head>
 <body>
     <div class="container">
@@ -44,6 +45,22 @@ img {
         <li>I am following Zach Gollwitzer's full stack road map series.</li>
         <li>My Favourite programming language is Javascript.</li>
     </ul>
+    <button onclick="resumeUpdate()">Resume</button>
+    <script>
+      const btn = document.querySelector('button');
+
+        const parent =document.querySelector('div');
+
+        const newNode = document.createElement('p');
+        newNode.textContent="Resume Updates";
+
+        //btn.onclick=resumeUpdate();
+        function resumeUpdate()
+        {
+          parent.insertBefore(newNode,btn);
+        }
+    </script>
+    
     <figure>
         <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFoCkccrAXaVg/profile-displayphoto-shrink_200_200/0/1615971695315?e=1625097600&v=beta&t=vDvYD8w_RlJhUrF0GJWywKi77Io87bD1DZX-z7f15-U">
         <figcaption>Here I am !!</figcaption>
